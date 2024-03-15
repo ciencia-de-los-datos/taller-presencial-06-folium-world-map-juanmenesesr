@@ -68,7 +68,7 @@ def plot_world_map(countries):
     countries = countries.to_frame()
     countries = countries.reset_index()
     countries.columns = ["countries", "count"]
-    print(countries)
+  
 
     m = folium.Map(location=[0, 0], zoom_start=2)
 
@@ -90,7 +90,7 @@ def main():
     affiliations = add_countries_column(affiliations)
     affiliations = clean_countries(affiliations)
     countries = count_country_frequency(affiliations)
-    countries.to_csv("countries.csv")
+    #countries.to_csv("countries.csv")
     plot_world_map(countries)
 
 
