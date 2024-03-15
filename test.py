@@ -17,7 +17,7 @@ if not os.path.exists("countries.csv"):
 # Lee el contenido del archivo output.txt
 dataframe = pd.read_csv("countries.csv")
 dataframe = dataframe.set_index("countries")
-dataframe.columns = ["countries", "count"]
+
 
 assert dataframe["count"]["United States of America"] == 579
 assert dataframe["count"]["China"] == 273
