@@ -1,8 +1,8 @@
 """Taller Presencial Evaluable"""
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import folium
+
 
 def load_affiliations():
     """Carga el archivo scopus-papers.csv y retorna un dataframe con la columna 'Affiliations'"""
