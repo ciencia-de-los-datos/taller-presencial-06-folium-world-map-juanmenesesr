@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """GitHub Classroom autograding script."""
 
 import os
@@ -58,4 +58,3 @@ assert dataframe["count"]["Italy"] == 112
 
 if not os.path.exists("map.html"):
     raise FileNotFoundError("File 'map.html' not found")
->>>>>>> 699bff9adb3951c361aaf27d0f99548e9378f008
